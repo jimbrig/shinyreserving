@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.DS_STORE
+desktop.ini
+node_modules
+yarn-error.log
+~
+~$
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto
