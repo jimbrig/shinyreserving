@@ -16,10 +16,28 @@ rm(curr_path)
 
 
 # Initialize --------------------------------------------------------------
+
 # usethis::create_package("shinyreserving")
 
 usethis::use_namespace()
 usethis::use_description()
+usethis::use_roxygen_md()
+usethis::use_package_doc()
+
+# set deescription before github
+desc::desc_set(
+  Title = "Shiny Reserving Application",
+  Description = "Actuarial Property Casualty Reserving Shiny Application."
+)
+
+# Git & GitHub ------------------------------------------------------------
+
+usethis::use_git()
+usethis::git_sitrep()
+
+usethis::use_github()
+usethis::use_github_links()
+usethis::use_github_labels()
 
 
 # Initial Dependencies ----------------------------------------------------
