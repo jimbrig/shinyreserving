@@ -4,9 +4,18 @@
 \name{shinyreserving-package}
 \alias{shinyreserving}
 \alias{shinyreserving-package}
-\title{shinyreserving: Actuarial Reserving}
+\title{shinyreserving: Shiny Reserving Application}
 \description{
-Actuarial Loss Reserving and Development R Package.
+Actuarial Property Casualty Reserving Shiny Application.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/jimbrig/shinyreserving}
+  \item \url{http://docs.jimbrig.com/shinyreserving/}
+  \item Report bugs at \url{https://github.com/jimbrig/shinyreserving/issues}
+}
+
 }
 \author{
 \strong{Maintainer}: Jimmy Briggs \email{jimmy.briggs@jimbrig.com} (\href{https://orcid.org/0000-0002-7489-8787}{ORCID})
