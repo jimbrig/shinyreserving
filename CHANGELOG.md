@@ -22,6 +22,10 @@
 - Add pkgdown GHA
 - Add rcmdcheck GHA
 
+### Miscellaneous Tasks
+
+- Autopublish 2024-01-29T00:24:49Z
+
 ### Init
 
 - Update pkgdevt.R
