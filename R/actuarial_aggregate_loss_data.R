@@ -2,15 +2,15 @@
 #'
 #' @description
 #' This function takes a [tibble::tibble()] `data.frame` with claim-specific
-#' loss amounts and consolidates the data into an aggregates table by `accident_year`
-#' and `devt` (maturity).
+#' loss amounts and consolidates the data into an aggregates table by
+#' `accident_year` and `devt` (maturity).
 #'
 #'
 #' @param claims_data [tibble::tibble()] of claims data. Must contain fields for
 #'   `reported`, `paid`, `accident_year`, and `devt`.
 #'
-#' @param limit (Optional) Per-claim *limit* to apply to individual claims before
-#'   aggregation. Default is `N/A` or for unlimited.
+#' @param limit (Optional) Per-claim *limit* to apply to individual claims
+#'   before aggregation. Default is `N/A` or for unlimited.
 #'
 #' @return an aggregated [tibble::tibble()]
 #'
