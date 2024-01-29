@@ -27,3 +27,8 @@
 ^~$$
 ^*\.docx$
 ^*\.zip$
+^cliff\.toml$
+^README\.Rmd$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
