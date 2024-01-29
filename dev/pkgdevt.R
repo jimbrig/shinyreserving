@@ -22,9 +22,8 @@ rm(curr_path)
 usethis::use_namespace()
 usethis::use_description()
 usethis::use_roxygen_md()
-usethis::use_package_doc()
 
-# set deescription before github
+# set description before github
 desc::desc_set(
   Title = "Shiny Reserving Application",
   Description = "Actuarial Property Casualty Reserving Shiny Application."
@@ -36,9 +35,8 @@ usethis::use_git()
 usethis::git_sitrep()
 
 usethis::use_github()
-usethis::use_github_links()
-usethis::use_github_labels()
-
+# usethis::use_github_links()
+# usethis::use_github_labels()
 
 # Initial Dependencies ----------------------------------------------------
 
@@ -113,5 +111,18 @@ pkgbump::set_pkgbump(
 pkgbump::pkgbump(version = "0.0.1")
 
 
+# Initial Docs ------------------------------------------------------------
+
+usethis::use_readme_rmd()
+knitr::knit("README.Rmd")
+
+# usethis::use_mit_license
+usethis::use_package_doc()
+usethis::use_news_md()
 
 devtools::document()
+
+
+# pkgdown -----------------------------------------------------------------
+
+usethis::use_pkgdown_github_pages()
