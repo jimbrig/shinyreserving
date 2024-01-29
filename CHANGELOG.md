@@ -13,6 +13,7 @@
 
 - Add initial pkgdown config
 - Add man pages
+- Update README with badges
 
 ### Features
 
@@ -27,6 +28,7 @@
 - Autopublish 2024-01-29T00:24:49Z
 - Autopublish 2024-01-29T00:25:54Z
 - Autopublish 2024-01-29T00:26:38Z
+- Autopublish 2024-01-29T00:30:03Z
 
 ### Refactoring
 
